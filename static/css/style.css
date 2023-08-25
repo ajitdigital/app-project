@@ -1,16 +1,166 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.carousel-inner img{
+.carousel-inner img {
   width: 100%;
-  height: 90vh;
+  height: 85vh;
 }
 
 .aboutimg {
   width: 100%;
-  height: 350px!important;
+  height: 350px !important;
 }
 
+
+/* This is Start footer page css style */
+footer {
+  background: #3a3a3a;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .footer-top {
+  background: #4e4e4e;
+  padding: 50px 0px 20px;
+}
+
+footer .address p {
+  font-size: 14px;
+  color: #ddd;
+  font-style: italic;
+}
+
+footer .social-links a {
+  font-size: 17px;
+  display: inline-block;
+  background: #28251f;
+  color: #fff;
+  line-height: 1;
+  padding: 9px 0;
+  margin-right: 5px;
+  border-radius: 100%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.4s;
+}
+
+footer .social-links a:hover {
+  background: #fdbf4a;
+}
+
+footer h4 {
+  font-size: 18px;
+  color: #fdbf4a;
+  padding-bottom: 12px;
+}
+
+footer .footer-menus {
+  margin-bottom: 20px;
+}
+
+footer .footer-menus ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-menus ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer-menus ul i {
+  color: #ffffff;
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+footer .footer-menus ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer-menus ul a:hover {
+  color: #fdbf4a;
+}
+
+footer .newsletter form {
+  margin-top: 30px;
+  background: #3a3a3a;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #3a3a3a;
+}
+
+footer .newsletter form input[type="email"] {
+  border: 0;
+  padding: 5px;
+  background: #3a3a3a;
+  color: #fff;
+}
+
+footer .newsletter form input[type="email"]:focus {
+  outline: none;
+}
+
+footer .newsletter form input[type="submit"] {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  bottom: -1px;
+  border: 0;
+  font-size: 16px;
+  background:  #fdbf4a;
+  color: #000;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+footer .newsletter form input[type="submit"]:hover {
+  background:  #fdbf4a;
+}
+
+.footer-bottom {
+  padding: 20px 0px;
+}
+
+footer .footer-bottom a {
+  color: #fdbf4a;
+  text-decoration: none;
+}
+
+/* This is contact css style */
+.contact-us {
+    padding: 8px 0px;
+    background: #795548;
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #af8070;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: px;
+}
+.contact-us input,
+.contact-us textarea {
+    background: #fafafa;
+}
+.contact-us textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact-us .map {
+    overflow: hidden;
+    border-radius: 4px;
+}

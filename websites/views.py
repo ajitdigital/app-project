@@ -28,6 +28,12 @@ def service(request):
     except Exception as err:
         return render(request, 'websites/service.html', {'error':err})
 
+def gallery(request):
+    try:
+        return render(request, 'websites/gallery.html')
+    except Exception as err:
+        return render(request, 'websites/gallery.html', {'error':err})
+
 def faq(request):
     try:
         return render(request, 'websites/faq.html')

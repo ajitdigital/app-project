@@ -1,0 +1,185 @@
+{% extends 'websites/base.html' %} {% load static %} {% block contentArea %}
+<!-- Intro with Card -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark"
+      data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark"
+      data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark"
+      data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="{% static 'images/12.jpg' %}" class="d-block w-100" width="750"
+        height="600" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="{% static 'images/13.jpg' %}" class="d-block w-100" width="750"
+        height="600" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/14.jpg' %}" class="d-block w-100" width="750"
+        height="600" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button"
+    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button"
+    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- About section -->
+<section class="my-4">
+  <div class="py-3">
+    <h2 class="text-center">About Us</h2>
+  </div><br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12">
+        <img src="{% static 'images/14.jpg' %}" class="img-fluid aboutimg">
+      </div>
+      <div class="col-lg-6 col-md-6 col-12">
+        <h2 class="display-7">I am Website Developer</h2>
+        <p class="py-2">Recusandae maxime laborum voluptate iure aliquam modi
+          officiis cupiditate dignissimos vero illo, excepturi ut tempora earum
+          eius? Blanditiis, sint repellat dolorem praesentium ex magnam porro id
+          possimus, corrupti placeat non, culpa similique quasi reiciendis
+          minima distinctio facere consectetur. Atque esse impedit alias modi.
+          Repellendus quo totam alias, necessitatibus expedita sapiente, quae
+          laborum vel consectetur, asperiores natus. Quidem, saepe explicabo?</p>
+        <a href="about.html" class="btn btn-success"> Check More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- services -->
+<section class="my-5">
+  <div>
+    <h2 class="text-center">Our Services</h2>
+  </div><br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 col-4 col-12">
+        <div class="card" style="width:400px">
+          <div class="card-body">
+            <img class="card-img-top" src="{% static 'images/14.jpg' %}"
+              alt="Card image" style="width:100%"><br>
+            <h4 class="card-title">Dell Syster</h4>
+            <p class="card-text">Some example text</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-4 col-12">
+        <div class="card" style="width:400px">
+          <div class="card-body">
+            <img class="card-img-top" src="{% static 'images/12.jpg' %}"
+              alt="Card image" style="width:100%"><br>
+            <h4 class="card-title">Dell Syster</h4>
+            <p class="card-text">Some example text</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-4 col-12">
+        <div class="card" style="width:400px">
+          <div class="card-body">
+            <img class="card-img-top" src="{% static 'images/12.jpg' %}"
+              alt="Card image" style="width:100%"><br>
+            <h4 class="card-title">Dell Syster</h4>
+            <p class="card-text">Some example text</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+
+  <!-- Testomonial -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="banner-wrap">
+        <div class="pmd-intro-bg-img pmd-intro-gradient"
+          style="background-image:url(static/images/banner/ajj.webp);">
+          <div class="container" style="color: azure;">
+            <div class="pmd-intro-container d-flex row justify-content-center">
+              <div class="align-self-center intro-text col-lg-8 text-center">
+                <img class="img-fluid pmd-img-sm rounded-circle"
+                  src="https://pro.propeller.in/assets/images/Keith-Dowd.png">
+                <h1 class="mt-4">Ajit singh</h1>
+                <p class="pmd-subtitle">FullStack Developer</p>
+                <hr>
+                <p class="lead pb-3">
+                  For over 3 decades we have remained committed to understand,
+                  accept, and meet and exceed the expectation of our customers. We
+                  do this by remaining on the bleeding edge of this ever-changing
+                  field of hardware-software co-design. The fact that we learn from
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+
+  
+  
+
+  <!-- Gallery pages -->
+  <section class="my-3">
+    <div><br>
+      <h2 class="text-center">Gallery Pages</h2>
+    </div><br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+        <div class="col-lg-3 col-md-3 col-12">
+          <img src="{% static 'images/13.jpg' %}" class="img-fluid pb-3">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  {% endblock %}

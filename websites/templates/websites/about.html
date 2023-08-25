@@ -1,0 +1,40 @@
+{% extends 'websites/base.html' %} {% load static %} {% block contentArea %}
+  <div class="banner-wrap">
+    <div class="pmd-intro-bg-img" style="background-image:url(static/images/banner/ajj1.webp);">
+      <div class="container">
+        <div class="pmd-intro-container d-flex row justify-content-start">
+          <div class="align-self-center col-lg-6 col-md-8 text-left pmd-card p-5">
+            <h1 class="card-title">Our About Us</h1>
+            <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
+            <a href="javascript:void(0);" class="btn pmd-ripple-effect pmd-btn-raised btn-primary">Contact Us Today</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- About section -->
+<section class="my-4">
+    <div class="py-3">
+      <h2 class="text-center">About Us</h2>
+    </div><br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <img src="{% static 'images/14.jpg' %}" class="img-fluid aboutimg">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h2 class="display-7">I am Website Developer</h2>
+          <p class="py-2">Recusandae maxime laborum voluptate iure aliquam modi
+            officiis cupiditate dignissimos vero illo, excepturi ut tempora earum
+            eius? Blanditiis, sint repellat dolorem praesentium ex magnam porro id
+            possimus, corrupti placeat non, culpa similique quasi reiciendis
+            minima distinctio facere consectetur. Atque esse impedit alias modi.
+            Repellendus quo totam alias, necessitatibus expedita sapiente, quae
+            laborum vel consectetur, asperiores natus. Quidem, saepe explicabo?</p>
+          <a href="about.html" class="btn btn-success"> Check More</a>
+        </div>
+      </div>
+    </div>
+</section>
+{% endblock %}
